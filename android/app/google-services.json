@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "791184939903",
+    "project_id": "k-universe",
+    "storage_bucket": "k-universe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791184939903:android:b692e6c6370e2ab23e184a",
+        "android_client_info": {
+          "package_name": "com.infinitystock.kuniverse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791184939903-103s3ajtg3df9krs5j7e8f7aasgnq1b1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.infinitystock.kuniverse",
+            "certificate_hash": "bfe246df39b259b29207a946fc40ff49d7e3c1de"
+          }
+        },
+        {
+          "client_id": "791184939903-evh1jm5kf6ldvc0voh3vsbvjuv2cbugv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.infinitystock.kuniverse",
+            "certificate_hash": "43cc1b50e10d19e3c44bd0a1e2514e0c312a83c3"
+          }
+        },
+        {
+          "client_id": "791184939903-9slg1264pkismm7577b4tid29r66kdj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXi8Sq2VmhOZbloX7pQK8sCAqdY73vAbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791184939903-9slg1264pkismm7577b4tid29r66kdj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
