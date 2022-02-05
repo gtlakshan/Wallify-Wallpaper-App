@@ -9,8 +9,8 @@ class ExplorePage extends StatefulWidget {
   _ExplorePageState createState() => _ExplorePageState();
 }
 
-class _ExplorePageState extends State<ExplorePage> with TickerProviderStateMixin {
-
+class _ExplorePageState extends State<ExplorePage>
+    with TickerProviderStateMixin {
   var scaffoldKey = GlobalKey<ScaffoldState>();
   TabController? tabController;
 
@@ -36,10 +36,12 @@ class _ExplorePageState extends State<ExplorePage> with TickerProviderStateMixin
                   fontWeight: FontWeight.w500),
               tabs: <Widget>[
                 Tab(
-                  child: Text('Popular Walfies'),
+                  child: Text('Popular Wallpaper'),
                 ),
                 Tab(
-                  child: Text('New Walfies',),
+                  child: Text(
+                    'New Wallpaper',
+                  ),
                 )
               ],
               labelColor: Colors.black,
@@ -55,9 +57,12 @@ class _ExplorePageState extends State<ExplorePage> with TickerProviderStateMixin
             child: TabBarView(
               controller: tabController,
               children: <Widget>[
-                PopularItems(scaffoldKey: scaffoldKey,), 
-                NewItems(scaffoldKey: scaffoldKey,)
-                
+                PopularItems(
+                  scaffoldKey: scaffoldKey,
+                ),
+                NewItems(
+                  scaffoldKey: scaffoldKey,
+                )
               ],
             ),
           ),
