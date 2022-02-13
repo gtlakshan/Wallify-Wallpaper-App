@@ -36,11 +36,11 @@ class _ExplorePageState extends State<ExplorePage>
                   fontWeight: FontWeight.w500),
               tabs: <Widget>[
                 Tab(
-                  child: Text('Popular Wallpaper'),
+                  child: Text('Popular Wallpapers'),
                 ),
                 Tab(
                   child: Text(
-                    'New Wallpaper',
+                    'New Wallpapers',
                   ),
                 )
               ],
