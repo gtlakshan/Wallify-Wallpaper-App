@@ -13,8 +13,8 @@ class Config {
   final String onesignalAppId = '0a72f529-b3c1-4162-a07e-ad4fd0900ee9';
 
   //-- admob ads --
-  final String admobAppId = 'ca-app-pub-3940256099942544~3347511713';
-  final String admobInterstitialAdId = 'ca-app-pub-3940256099942544/1033173712';
+  final String admobAppId = 'ca-app-pub-2767536044570813~8213208967';
+  final String admobInterstitialAdId = 'ca-app-pub-2767536044570813/3017734369';
 
   //-- facebook ads--
   final String facebookInterstitialAdId = '5878408****************';
